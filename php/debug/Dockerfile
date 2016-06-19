@@ -1,4 +1,4 @@
-FROM emarref/php:7.0-fpm
+FROM emarref/php
 
 COPY pool-debug.conf /usr/local/etc/php-fpm.d/
 
