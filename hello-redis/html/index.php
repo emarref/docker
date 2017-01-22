@@ -14,6 +14,6 @@ $counter = $client->incr('hello-redis:counter');
         <title>Counter</title>
     </head>
     <body>
-        <p>At <?=$counter?>.</p>
+        <p>At <?=$counter?> on the staging branch.</p>
     </body>
 </html>
