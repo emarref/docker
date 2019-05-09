@@ -3,6 +3,7 @@ Self-contained PHP web server.
 - Based on official PHP images (7.3).
 - Uses Caddy to serve from a single container.
 - Self-signed SSL by default.
+- XDebug installed
 
 I.e. you don't need separate web and app containers.
 
