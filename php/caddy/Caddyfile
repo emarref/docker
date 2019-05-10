@@ -6,3 +6,4 @@ import ./tls.conf
 import ./common.conf
 import ./php.conf
 import ./log.conf
+import ./conf.d/*.conf
