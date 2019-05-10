@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  php:
+    image: emarref/php
+    build: php
+
+  php-debug:
+    image: emarref/php-debug
+    build: php-debug
+    depends_on: 
+      - php

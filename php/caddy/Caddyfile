@@ -1,0 +1,8 @@
+{$HOSTNAME}
+
+root {$DOCUMENT_ROOT}
+
+import ./tls.conf
+import ./common.conf
+import ./php.conf
+import ./log.conf
