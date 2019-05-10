@@ -8,9 +8,8 @@ COPY --from=abiosoft/caddy:no-stats /usr/bin/caddy /usr/bin/caddy
 COPY ./caddy/ /etc/caddy/
 
 RUN rm -rf /var/www
-COPY index.php /var/www/public/
-COPY favicon.ico /var/www/public/
+COPY ./public/ /var/www/public/
 
 WORKDIR /var/www
 
-CMD ["/usr/bin/caddy", "-conf", "/etc/caddy/Caddyfile"]
+CMD ["/usr/bin/caddy", "-conf", "/etc/caddy/Caddyfile", "-agree"]
